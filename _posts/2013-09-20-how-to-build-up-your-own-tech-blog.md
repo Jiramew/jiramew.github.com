@@ -6,3 +6,5 @@ category:
 tags: []
 ---
 {% include JB/setup %}
+
+This post will show you how the blog was created.
