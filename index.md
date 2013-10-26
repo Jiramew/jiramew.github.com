@@ -20,7 +20,7 @@ In `_config.yml` remember to specify your own data:
 	  
 ## My CV
 
-	<a href="https://github.com/Jiramew/jiramew.github.com/blob/master/assets/CV.pdf">this</a>
+	<li><a href="https://github.com/Jiramew/jiramew.github.com/blob/master/assets/CV.pdf">this</a></li>
 	
 	
 	
