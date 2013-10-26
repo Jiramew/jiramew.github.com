@@ -19,9 +19,9 @@ In `_config.yml` remember to specify your own data:
 
 	  
 ## My CV
-
+	<ul>
 	<li><a href="https://github.com/Jiramew/jiramew.github.com/raw/master/assets/CV.pdf">this</a></li>
-	
+	</ul>
 	
 	
 ## Posts
