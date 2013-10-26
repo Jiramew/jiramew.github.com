@@ -1,24 +1,30 @@
 ---
 layout: page
-title: Hello World!
-tagline: Supporting tagline
+title: Hanbing Yang
+tagline: Welcome to Hanbing's tech-blog!
 ---
 {% include JB/setup %}
 
-## Update Author Attributes
+## About myself
 
 In `_config.yml` remember to specify your own data:
     
-    title : My Blog =)
+    title : Hanbing Tech-Blog
     
     author :
-      name : Name Lastname
-      email : blah@email.test
-      github : username
-      twitter : username
+      name : Hanbing Yang
+      email : hanbingflying@gmail.com
+      github : jiramew
+      twitter : none
 
-    
-## Sample Posts
+	  
+## My CV
+
+	This is my cv
+	
+	
+	
+## Posts
 
 This blog contains sample posts which help stage pages and blog data.
 When you don't need the samples anymore just delete the `_posts/core-samples` folder.
