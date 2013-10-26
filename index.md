@@ -15,7 +15,7 @@ In `_config.yml` remember to specify your own data:
       name : Hanbing Yang
       email : hanbingflying@gmail.com
       github : jiramew
-      twitter : none
+      Sina MicroBlog : <http://weibo.com/1329143471>
 
 	  
 ## My CV
