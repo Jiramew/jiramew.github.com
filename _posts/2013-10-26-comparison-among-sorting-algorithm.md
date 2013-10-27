@@ -26,7 +26,7 @@ comparison among different sorting algorithm.
 		}    
 	}
 ---
-##Selection Sort##
+##Select Sort##
 	void SelectSort(int arr[],int n)
 	{
 		int min_index;
