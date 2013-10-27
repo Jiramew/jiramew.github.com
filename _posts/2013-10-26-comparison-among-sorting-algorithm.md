@@ -9,7 +9,7 @@ tags: []
 
 comparison among different sorting algorithm.
 
-**Bubble Sort**
+##Bubble Sort##
 	void BubbleSort(int arr[],int n)
 	{
 		for(int i=0;i<n-1;i++)
@@ -26,7 +26,7 @@ comparison among different sorting algorithm.
 		}    
 	}
 
-**Selection Sort**
+##Selection Sort##
 	void SelectSort(int arr[],int n)
 	{
 		int min_index;
@@ -45,7 +45,7 @@ comparison among different sorting algorithm.
 			}
 		}
 	}
-**Insert Sort**
+##Insert Sort##
 	void InsertSort(int arr[],int n)
 	{
 		for(int i=1;i<n;i++)
@@ -61,7 +61,7 @@ comparison among different sorting algorithm.
 		}
 	}
 
-**Shell Sort**
+##Shell Sort##
 	void ShellSort(int arr[],int n)
 	{
 		for(int incr=n/2;incr>0;incr/=2)
@@ -82,7 +82,7 @@ comparison among different sorting algorithm.
 			}
 		}
 	}
-**Quick Sort**
+##Quick Sort##
 	void swap(int &a,int &b){int t;t =a ;a =b ;b =t ;} 
 	int Partition(int arr[],int low,int high) 
 	{ 
