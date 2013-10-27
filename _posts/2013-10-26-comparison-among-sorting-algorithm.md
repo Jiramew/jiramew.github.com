@@ -8,7 +8,7 @@ tags: []
 {% include JB/setup %}
 
 comparison among different sorting algorithm.
-
+---
 ##Bubble Sort##
 	void BubbleSort(int arr[],int n)
 	{
@@ -25,7 +25,7 @@ comparison among different sorting algorithm.
 			}
 		}    
 	}
-
+---
 ##Selection Sort##
 	void SelectSort(int arr[],int n)
 	{
@@ -45,6 +45,7 @@ comparison among different sorting algorithm.
 			}
 		}
 	}
+---
 ##Insert Sort##
 	void InsertSort(int arr[],int n)
 	{
@@ -60,7 +61,7 @@ comparison among different sorting algorithm.
 			arr[j+1]=temp;
 		}
 	}
-
+---
 ##Shell Sort##
 	void ShellSort(int arr[],int n)
 	{
@@ -82,28 +83,26 @@ comparison among different sorting algorithm.
 			}
 		}
 	}
+---
 ##Quick Sort##
 	void swap(int &a,int &b){int t;t =a ;a =b ;b =t ;} 
 	int Partition(int arr[],int low,int high) 
 	{ 
-		int pivot=arr[low];//采用子序列的第一个元素作为枢纽元素 
+		int pivot=arr[low];
 		while (low < high) 
 		{ 
-			//从后往前栽后半部分中寻找第一个小于枢纽元素的元素 
 			while (low < high && arr[high] >= pivot) 
 			{ 
 				--high; 
 			} 
-			//将这个比枢纽元素小的元素交换到前半部分 
 			swap(arr[low], arr[high]); 
-			//从前往后在前半部分中寻找第一个大于枢纽元素的元素 
 			while (low <high &&arr [low ]<=pivot ) 
 			{ 
 				++low ; 
 			} 
-			swap (arr [low ],arr [high ]);//将这个枢纽元素大的元素交换到后半部分 
+			swap (arr [low ],arr [high ]);
 		}       
-		return low ;//返回枢纽元素所在的位置 
+		return low ;
 	} 
 	void QuickSort(int a[],int low,int high,int num)
 	{     
