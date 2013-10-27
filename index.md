@@ -7,11 +7,11 @@ tagline: Welcome to Hanbing's tech-blog!
 
 ## About myself
 
-In `_config.yml` remember to specify your own data:
+<!--In `_config.yml` remember to specify your own data:-->
 
     title : Hanbing Tech-Blog
     
-    author :
+    author : Hanbing Yang
       name : Hanbing Yang
       email : hanbingflying@gmail.com
       github : jiramew
