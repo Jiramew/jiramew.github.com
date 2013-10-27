@@ -10,75 +10,75 @@ tags: []
 comparison among different sorting algorithm.
 ---
 ##Bubble Sort##
-	void BubbleSort(int arr[],int n)
+	void BubSort(int array[],int n)
 	{
 		for(int i=0;i<n-1;i++)
 		{
 			for(int j=i+1;j<n;j++)
 			{
-				if(arr[i]>arr[j])
+				if(array[i]>array[j])
 				{
-					int temp=arr[i];
-					arr[i]=arr[j];
-					arr[j]=temp;
+					int tem=array[i];
+					array[i]=array[j];
+					array[j]=tem;
 				}
 			}
 		}    
 	}
 ---
 ##Select Sort##
-	void SelectSort(int arr[],int n)
+	void SelectSort(int array[],int n)
 	{
-		int min_index;
+		int min;
 		for(int i=0;i<n-1;i++)
 		{
-			min_index=i;
+			min=i;
 			for(int j=i+1;j<n;j++)
 			{
-				if(arr[j]<arr[min_index])min_index=j;
+				if(array[j]<array[min]) min=j;
 			}
-			if(min_index!=i)
+			if(min!=i)
 			{
-				int temp=arr[i];
-				arr[i]=arr[min_index];
-				arr[min_index]=temp;
+				int tem=array[i];
+				array[i]=array[min];
+				array[min]=tem;
 			}
 		}
 	}
 ---
 ##Insert Sort##
-	void InsertSort(int arr[],int n)
+	void InsertSort(int array[],int n)
 	{
 		for(int i=1;i<n;i++)
 		{
-			int temp=arr[i];
+			int tem=array[i];
 			int j=i-1;
-			while(j>=0&&arr[j]>temp)
+			while(j>=0&&array[j]>tem)
 			{
-				arr[j+1]=arr[j];
+				array[j+1]=array[j];
 				j--;
 			}
-			arr[j+1]=temp;
+			array[j+1]=tem;
 		}
 	}
 ---
 ##Shell Sort##
-	void ShellSort(int arr[],int n)
+	void ShellSort(int array[],int n)
 	{
-		for(int incr=n/2;incr>0;incr/=2)
+		for(int in=n/2;in>0;in/=2)
 		{
-			for(int L=0;L<(n-1)/incr;L++)
+			for(int k=0;k<(n-1)/in;k++)
 			{
-				for(int i=L+incr;i<n;i+=incr)
+				for(int i=k+in;i<n;i+=in)
 				{
-					int temp=arr[i];
-					int j=i-incr;
-					while(j>=0&&arr[j]>temp)
+					int tem=array[i];
+					int j=i-in;
+					while(j>=0&&array[j]>tem)
 					{
-						arr[j+incr]=arr[j];
-						j-=incr;
+						array[j+in]=array[j];
+						j-=in;
 					}
-					arr[j+incr]=temp;
+					array[j+in]=tem;
 				}
 			}
 		}
@@ -86,21 +86,21 @@ comparison among different sorting algorithm.
 ---
 ##Quick Sort##
 	void swap(int &a,int &b){int t;t =a ;a =b ;b =t ;} 
-	int Partition(int arr[],int low,int high) 
+	int Partition(int array[],int low,int high) 
 	{ 
-		int pivot=arr[low];
+		int p=array[low];
 		while (low < high) 
 		{ 
-			while (low < high && arr[high] >= pivot) 
+			while (low < high && array[high] >= p) 
 			{ 
 				--high; 
 			} 
-			swap(arr[low], arr[high]); 
-			while (low <high &&arr [low ]<=pivot ) 
+			swap(array[low], array[high]); 
+			while (low <high &&array [low ]<=p ) 
 			{ 
 				++low ; 
 			} 
-			swap (arr [low ],arr [high ]);
+			swap (array [low ],array [high ]);
 		}       
 		return low ;
 	} 
