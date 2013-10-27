@@ -8,7 +8,7 @@ tagline: Welcome to Hanbing's tech-blog!
 ## About myself
 
 In `_config.yml` remember to specify your own data:
-    
+
     title : Hanbing Tech-Blog
     
     author :
