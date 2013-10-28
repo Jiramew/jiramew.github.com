@@ -19,7 +19,8 @@ Firstly, os 10.9 have indeed made some change, like iOS7 comparing with iOS6, by
 </ul>
 <img src="/assets/apple20131022/osX.jpg" width="600" height="480">     
 Secondly, iLife and iWork are more likely to be tools than games.
-<img src="/assets/apple20131022/iWork.jpg" width="300" height="240"><img src="/assets/apple20131022/iLife.jpg" width="300" height="240">
+<img src="/assets/apple20131022/iWork.jpg" width="300" height="240" align=left>
+<img src="/assets/apple20131022/iLife.jpg" width="300" height="240" align=left>
 ##New Mac Pro
 This is "the future of the pro desktop" with Intel Xeon E5, 4~12-cores, up to 30MB L3 cache, Dual-Workstation GPUs, fastest ECC Memory, next generation flash.     
 <img src="/assets/apple20131022/macpro.jpg" width="600" height="480">
