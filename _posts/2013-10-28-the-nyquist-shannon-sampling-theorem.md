@@ -2,7 +2,11 @@
 layout: post
 title: "The Nyquist Shannon Sampling Theorem"
 categories:
-tags:[Math]
+- 
+tags:
+- 
+
+
 ---
 
 <p><code>\[
