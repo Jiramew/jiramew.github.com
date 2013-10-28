@@ -35,3 +35,8 @@ Inside - A7 chip with 64-bit desktop-class architecture, 5MB iSight camera, 1080
 Retina display on the iPad mini makes it an even stronger alternative to the full-sized iPad.   
 This is 4x faster than last year's model, and 8x faster at graphics tasks, Schiller says. Still gets 10 hour battery life. Also gets MIMO Wi-Fi support.   
 <img src="/assets/apple20131022/ipadmini.jpg" width="600" height="480">
+##Man in Apple
+<img src="/assets/apple20131022/Tim.jpg" width="150" height="120" align=left>
+<img src="/assets/apple20131022/Ivy.jpg" width="150" height="120" align=left>
+<img src="/assets/apple20131022/Schiller.jpg" width="150" height="120" align=left>
+<img src="/assets/apple20131022/Federighi.jpg" width="150" height="120" align=left>
