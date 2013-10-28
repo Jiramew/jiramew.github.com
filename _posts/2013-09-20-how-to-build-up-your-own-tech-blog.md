@@ -19,14 +19,6 @@ Download and Install `Jelly-Bootstrap` on your `Github` repository and follow th
 
 You should register a `Github` account and install `Git`   
 Installing Jekyll is easy and straight-forward, but there are a few requirements you’ll need to make sure your system has before you start.
-* Ruby   
-* RubyGems   
-* Linux, MacOS, Windows  
-Very simply, you can run the following command to install `Jekyll`    
-
-{% highlight objc %}    
-$ gem install jekyll
-{% endhighlight %}
 
 <ul>
 <li><a href='http://www.ruby-lang.org/en/downloads/'>Ruby</a></li>
@@ -34,6 +26,12 @@ $ gem install jekyll
 <li><a href='http://rubygems.org/pages/download'>RubyGems</a></li>
 
 <li>Linux, Unix, or Mac OS X</li>
-</ul>
+</ul>   
+
+Very simply, you can run the following command to install `Jekyll`     
+`$ gem install jekyll`
+
+
+
 
 
