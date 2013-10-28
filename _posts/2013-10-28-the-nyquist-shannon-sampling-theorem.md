@@ -15,11 +15,11 @@ If a function <p>$x(t)$</p> contains no frequencies higher than <p>$B$</p> hertz
 
 Let $x(t)$ denote any continuous-time signal having a continuous Fourier transform:
 
-<p>$$X(j\omega)=\int_{-\infty}^{\infty}x(t)e^{-j \omega t}dt$$</p>
+<p>$X(j\omega)=\int_{-\infty}^{\infty}x(t)e^{-j \omega t}dt$</p>
 
 Let
 
-<p>$$x_d(n)=x(nT)  n=\dots,-2,-1,0,1,2,\dots$$</p>
+<p>$x_d(n)=x(nT)  n=\dots,-2,-1,0,1,2,\dots$</p>
 
 <!-- MathJax Section -->
  
