@@ -28,4 +28,12 @@ Very simply, you can run the following command to install `Jekyll`
 $ gem install jekyll
 {% endhighlight %}
 
+<ul>
+<li><a href='http://www.ruby-lang.org/en/downloads/'>Ruby</a></li>
+
+<li><a href='http://rubygems.org/pages/download'>RubyGems</a></li>
+
+<li>Linux, Unix, or Mac OS X</li>
+</ul>
+
 
