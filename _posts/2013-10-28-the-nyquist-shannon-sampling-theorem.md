@@ -2,11 +2,7 @@
 layout: post
 title: "The Nyquist Shannon Sampling Theorem"
 categories:
-- 
 tags:[Math]
-- 
-
-
 ---
 
 The Nyquist-Shannon sampling theorem, after Harry Nyquist and Claude Shannon, in the literature more commonly referred to as the Nyquist sampling theorem or simply as the sampling theorem, is a fundamental result in the field of information theory, in particular telecommunications and signal processing.Sampling is the process of converting a signal (for example, a function of continuous time or space) into a numeric sequence (a function of discrete time or space). Shannon's version of the theorem states:
