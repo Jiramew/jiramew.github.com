@@ -28,8 +28,10 @@ Installing Jekyll is easy and straight-forward, but there are a few requirements
 <li>Linux, Unix, or Mac OS X</li>
 </ul>   
 
-Very simply, you can run the following command to install `Jekyll`     
-`$ gem install jekyll`
+Very simply, you can run the following command to install `Jekyll`
+{% highlight objc %}
+$ gem install jekyll
+{% highlight objc %}
 
 
 
