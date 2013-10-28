@@ -5,7 +5,6 @@ description: ""
 category: 
 tags: []
 ---
-{% include JB/setup %}
 
 comparison among different sorting algorithm.
 ---
