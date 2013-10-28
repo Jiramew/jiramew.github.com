@@ -3,7 +3,7 @@ layout: post
 title: "Apple Special Event October 22"
 categories:
 - 
-tags: [Apple]
+tags: 
 - 
 
 
@@ -23,4 +23,6 @@ Firstly, osX 10.9 have indeed made some change, like iOS7 comparing with iOS6, b
 Secondly, iLife and iWork are more likely to be tools than games.
 <img src="assets/apple20131022/iWork.jpg" width="300" height="240">
 <img src="assets/apple20131022/iLife.jpg" width="300" height="240">
-##13 and 15 inches Retina MBP: Haswell and Thunderbolt 2
+##New Mac Pro and Retina MBP
+The new 13-inch RMBP is thinner and lighter, running 4th-generationdual-core Haswell chips together with the Iris integrated graphics
+
