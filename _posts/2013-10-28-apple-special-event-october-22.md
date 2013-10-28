@@ -9,4 +9,4 @@ tags:
 
 ---
 
-<embed src="http://player.youku.com/player.php/sid/XNjI1MDE2NDc2/v.swf" allowFullScreen="true" quality="high" width="480" height="400" align="middle" allowScriptAccess="always" type="application/x-shockwave-flash"></embed>
+<p><embed src="http://player.youku.com/player.php/sid/XNjI1MDE2NDc2/v.swf" allowfullscreen="true" quality="high" width="600" height="480" align="middle" type="application/x-shockwave-flash" flashvars="winType=index" style="visibility:visible;" /></p>
