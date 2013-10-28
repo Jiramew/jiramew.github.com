@@ -20,7 +20,7 @@ Firstly, osX 10.9 have indeed made some change, like iOS7 comparing with iOS6, b
 <li>high-efficiency and energy-saving</a></li>
 </ul>
 <img src="assets/apple20131022/osX.jpg" width="600" height="480">     
-Secondly, iLife and iWork are more likely to be an tool than a game.
+Secondly, iLife and iWork are more likely to be tools than games.
 <img src="assets/apple20131022/iWork.jpg" width="300" height="240">
 <img src="assets/apple20131022/iLife.jpg" width="300" height="240">
 ##13 and 15 inches Retina MBP: Haswell and Thunderbolt 2
