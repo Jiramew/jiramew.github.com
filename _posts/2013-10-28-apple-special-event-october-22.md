@@ -9,7 +9,7 @@ tags: [Apple]
 This post will show you Apple Special Event on 2013 Oct.22    
 `You Can Watch the Video Below`
 <!--<p><embed src="http://player.youku.com/player.php/sid/XNjI1MDE2NDc2/v.swf" allowfullscreen="true" quality="high" width="720" height="540" align="middle" type="application/x-shockwave-flash" flashvars="winType=index" style="visibility:visible;" /></p>-->
-<p><iframe height=498 width=510 src="http://player.youku.com/embed/XNjI1MDE2NDc2" frameborder=0 allowfullscreen></iframe></p>
+<p><iframe height=720 width=540 src="http://player.youku.com/embed/XNjI1MDE2NDc2" frameborder=0 allowfullscreen></iframe></p>
 
 <img src="/assets/apple20131022/invite.jpg" width="600" height="480">   
 “We still have a lot to cover,” reads the text of the invite. And, indeed, Apple does.
