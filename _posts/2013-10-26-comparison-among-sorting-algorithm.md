@@ -3,7 +3,7 @@ layout: post
 title: "Comparison Among Sorting Algorithm"
 description: ""
 category: 
-tags: []
+tags: [algorithm]
 ---
 
 comparison among different sorting algorithm.

@@ -4,4 +4,4 @@ title: 留言
 comments: yes
 ---
 
-来了，就留下你的足迹吧。。
+You can leave a message here~ ^o^
