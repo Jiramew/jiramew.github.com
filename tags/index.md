@@ -25,7 +25,7 @@ layout: page
 <script language="javascript">
 $.fn.tagcloud.defaults = {
     size: {start: 1, end: 1, unit: 'em'},
-      color: {start: '#0000ff', end: '#ff3333'}
+      color: {start: '#ff0000', end: '#ff3333'}
 };
 
 $(function () {
