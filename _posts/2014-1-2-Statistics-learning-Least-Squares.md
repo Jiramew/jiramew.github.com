@@ -23,3 +23,9 @@ By using least squares, we pick the coefficients `\( \beta \)` to minimize the R
 
 
 `\[ RSS(\beta)=\sum_{i=1}^N(y_{i}-x_{i}^T\beta)^2 \]`
+
+
+The solution can be characterized in matrix notation easily, we can write
+
+
+`\[ RSS(\beta)=(\vec(y)-\vec(X)\beta)^T(\vec(y)-\vec(X)\beta) \]`
