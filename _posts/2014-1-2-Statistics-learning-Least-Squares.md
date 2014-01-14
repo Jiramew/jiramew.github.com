@@ -25,7 +25,7 @@ If `\( X^TX \)` is not singular, the unique solution is given by
 	y1<-c(0,1,2,3,3.2,3,5,3,2)    
 	plot(x1,y1,pch=16,xlim=c(0,4),ylim=c(0,4))    
 	k<-solve(t(x1)%*%x1)%*%t(x1)%*%y1    
-	b<-y1[1]-k*x1[1]    
+	b<-mean(y1)-k*mean(x1)    
 	x=seq(0,4,by=0.02)    
 	y=k*x+b    
 	lines(x,y,col="blue",lwd=2)    
