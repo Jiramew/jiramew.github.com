@@ -12,7 +12,7 @@ The linear model has been a mainstay of statistics for the past thirty years. Gi
 $$Y=\beta_{0}+\sum_{i=1}^pX_{i}\beta_{i}$$
 
 
-Often it is convenient to include the constant 1 in X to get
+Often it is convenient to include the constant 1 in $X$ to get
 
 
 $$Y=X^T\beta$$
