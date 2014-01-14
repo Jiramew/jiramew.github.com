@@ -10,7 +10,7 @@ tags: [Statistics]
 The linear model has been a mainstay of statistics for the past thirty years. Given the inputs `\( X^T=(X_{1},X_{2},...,X_{p}) \)`, we predict Y as output
 
 
-`\[ \widehat{Y}=\beta_{0}+\sum_{i=1}^pX_{i}\beta_{i} \]`
+`\[ \hat{Y}=\beta_{0}+\sum_{i=1}^pX_{i}\beta_{i} \]`
 
 
 Often it is convenient to include the constant 1 in X to get
@@ -32,7 +32,7 @@ The solution can be characterized in matrix notation easily, we can write
 `\[ RSS(\beta)=(y-X\beta)^T(y-X\beta) \]`
 
 
-Differentiating with regard to `\( \beta )\` we get
+Differentiating with regard to `\( \beta \)` we get
 
 
 `\[ X^T(y-X\beta)=0 \]`
@@ -42,3 +42,9 @@ If `\( X^TX \)` is not singular, the unique solution is given by
 
 
 `\[ \beta=(X^TX)^{-1}X^Ty \]`
+
+
+##Coding##
+---
+
+---

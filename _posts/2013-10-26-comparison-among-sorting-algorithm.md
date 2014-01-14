@@ -1,12 +1,12 @@
 ---
 layout: post
-title: "Comparison Among Sorting Algorithm"
+title: "Comparison Among Sorting Algorithms"
 description: ""
 category: 
 tags: [algorithm]
 ---
 
-comparison among different sorting algorithm.
+comparison among different sorting algorithms.
 ---
 ##Bubble Sort##
 	void BubSort(int array[],int n)
