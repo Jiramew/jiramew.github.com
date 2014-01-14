@@ -1,9 +1,9 @@
 ---
 layout: post
-title: "Compose Songs By Figure"
+title: "Statistics learning least squares"
 description: ""
 category: 
-tags: [Music]
+tags: [Statistics]
 ---
 
 The linear model has been a mainstay of statistics for the past thirty years. Given the inputs $ X^T=(X_{1},X_{2},...,X_{p}) $, we predict Y as output
