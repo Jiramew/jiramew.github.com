@@ -16,3 +16,9 @@ Often it is convenient to include the constant 1 in X to get
 
 
 $$\^(Y)=X^T\^(\beta)$$
+
+
+By using least squares, we pick the coefficients $\beta$ to minimize the RSS(residual sum of squares)
+
+
+$$RSS(\beta)=\sum_{i=1}^N(y_{i}-x_{i}^T\beta)^2$$
