@@ -22,3 +22,7 @@ By using least squares, we pick the coefficients $\beta$ to minimize the RSS(res
 
 
 $$ RSS(\beta)=\sum_{i=1}^N(y_{i}-x_{i}^T\beta)^2 $$
+
+
+
+
