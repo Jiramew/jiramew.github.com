@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Statistics learning perceptro"
+title: "Statistics learning perceptron"
 description: ""
 category: 
 tags: [Statistics]
@@ -14,10 +14,10 @@ Given a training set `\( T={(x_{1},y{1}),(x_{2},y_{2}),...,(x_{N},y_{N})} \)`
 Perceptron is a linear classification model, the algorithm goes like this:     
 1.Start with the all-zeroes weight vector `\( w=0 \)` , and initialize `\( t \)` to 1. Also let’s automatically scale all examples `\( x \)` to have (Euclidean) length 1, since this doesn’t affectwhich side of the plane they are on.      
 2.Given example `\( x \)`,    
-3.If `\( y_{i}(wx_{i}+b) \le 0 \)`     
-`\[ w<-w+\etay_{i}x_{i} \]`     
-`\[ b<-b+\etay_{i} \]`     
-4.goto 2 unless `\( y_{i}(wx_{i}+b) \gt 0 \)`
+3.If `\( y_{i}(wx_{i}+b) \leq 0 \)`     
+`\[ w<-w+\eta y_{i}x_{i} \]`     
+`\[ b<-b+\eta y_{i} \]`     
+4.goto 2 unless `\( y_{i}(wx_{i}+b) > 0 \)`
 ##Coding##
 ---
 	x1<-c(3,4,1)     
