@@ -15,7 +15,7 @@ where `\( N_{k}(x) \)` is the neighborhood of x defined by the k closest point `
 	x1<-rnorm(50,0,1)     
 	y1<-rnorm(50,0,1)     
 	x2<-rnorm(50,2,1)     
-	y2<-rnorm(50,2,1     
+	y2<-rnorm(50,2,1)          
 	x<-cbind(t(x1),t(x2))     
 	y<-cbind(t(y1),t(y2))     
 	plot(x1,y1,col=2,pch=16,xlim=c(-3,5),ylim=c(-3,5))     
