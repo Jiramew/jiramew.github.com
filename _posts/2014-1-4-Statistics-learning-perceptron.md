@@ -7,8 +7,8 @@ tags: [Statistics]
 ---
 ##Intoduction##
 One of the oldest algorithms used in machine learning (from early 60s) is an online algorithm for learning a linear threshold function called the Perceptron Algorithm.     
-Given a training set `\( T={(x_{1},y{1}),(x_{2},y_{2}),...,(x_{N},y_{N})} \)`      
-`\( y_{i} \in {-1,1},i=1,2,...,N \)`, We want to solve the following issue:     
+Given a training set `\( T=\{(x_{1},y{1}),(x_{2},y_{2}),...,(x_{N},y_{N})\} \)`      
+`\( y_{i} \in \{-1,1\},i=1,2,...,N \)`, We want to solve the following issue:     
 `\[ min_{w,b}L(w,b)=-\sum_{x_{i} \in M}y_{i}(wx_{i}+b) \]`     
 `\( M \)` is the set containing the mistaken points.     
 Perceptron is a linear classification model, the algorithm goes like this:     
