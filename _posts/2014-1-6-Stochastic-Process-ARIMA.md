@@ -26,4 +26,4 @@ tags: [Stochastic]
 	datafore<-forecast(arima1,h=30,fan=T)   
 	plot(datafore)
 ---
-<img src="/assets/2014131.jpg" width="400" height="400"> 
+<img src="/assets/2014161.jpg" width="400" height="400"> 
