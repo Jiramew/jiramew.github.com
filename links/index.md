@@ -5,5 +5,4 @@ comments: yes
 ---
 	
 Under construction. Come back soon...      
-</links/chat.html>
-
+<a href="chat.html">CHAT</a>     
