@@ -1,4 +1,4 @@
-<html>
+﻿<html>
 <head>
 <title>WebSocket</title>
 
@@ -12,7 +12,7 @@
 var socket;
 
 function init(){
-  var host = "ws://127.0.0.1:8808/";
+  var host = "ws://192.168.64.101:80/";
   try{
     socket = new WebSocket(host);
     socket.onopen    = function(msg){ ; };
