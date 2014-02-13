@@ -13,7 +13,7 @@ Everything we need to know is to remember the ME(moment estimate) of each distri
 	x=rnorm(1000,1,2)     
 	mean=mean(x)     
 	stde=sd(x)     
-##Example2(Binomial Distribution)##    
+##Example2(Binomial Distribution)##
 First we can see that the two parameters satisfy the following expression( for B(n,p) )：       
 `\[\begin{equation}
    \left\{
@@ -62,7 +62,7 @@ For One-Parameter Distribution, we usually use the logarithm likehood function.
 We can use the function "optimize()" to compute the MLE of a specific distribution.       
 ##Example(Poisson Distribution)##
 For `\( P(\lambda) \)` the logarithm likehood function for `\( X_{1},X_{2}...X_{n} \)` is
-`\[ l_{\lambda}(X)=log(\frac{\lambda^{\sum_{i=1}^{n}x_{i}}e^{n\lambda}}{\Gamma(x_{1}+1)\Gamma(x_{2}+1)...\Gamma(x_{n}+1)})=-n\lambda+(sum_{i=1}^{n}x_{i})log(\lambda)-sum_{i=1}^{n}log(\Gamma(x_{i}+1)) \]`
+`\[ l_{\lambda}(X)=log(\frac{\lambda^{\sum_{i=1}^{n}x_{i}}e^{n\lambda}}{\Gamma(x_{1}+1)\Gamma(x_{2}+1)...\Gamma(x_{n}+1)})=-n\lambda+(\sum_{i=1}^{n}x_{i})log(\lambda)-\sum_{i=1}^{n}log(\Gamma(x_{i}+1)) \]`
 
 	n<-100       
 	x<-rpois(n,5)       
