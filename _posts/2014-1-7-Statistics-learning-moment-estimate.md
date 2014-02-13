@@ -63,3 +63,21 @@ We can use the function "optimize()" to compute the MLE of a specific distributi
 ##Example(Poisson Distribution)##
 For `\( P(\lambda) \)` the logarithm likehood function for `\( X_{1},X_{2}...X_{n} \)` is
 `\[ l_{\lambda}(X)=log(\frac{\lambda^{\sum_{i=1}^{n}x_{i}}e^{n\lambda}}{\Gamma(x_{1}+1)\Gamma(x_{2}+1)...\Gamma(x_{n}+1)})=-n\lambda+(sum_{i=1}^{n}x_{i})log(\lambda)-sum_{i=1}^{n}log(\Gamma(x_{i}+1)) \]`
+
+	n<-100       
+	x<-rpois(n,5)       
+	sum<-sum(x)       
+	Prodgamma<-function(x)       
+	{       
+		prod=1       
+		for(i in 1:length(x))       
+		{       
+			prod<-prod*gamma(x[i]+1)       
+		}       
+		return(prod)       
+	}       
+	f<-function(lambda)       
+	{       
+		-n*lambda+sum*log(lambda)-log(Prodgamma(x))       
+	}       
+	optimize(f,c(3,7),maximum=T)       
