@@ -24,13 +24,16 @@ First we can see that the two parameters satisfy the following expression( for B
    \right.
    \end{equation}\]`      
 we need the funciton to compute the moment.       
+
 	moment <-function(para)      
 	{        
 	fun<-c(para[1]*para[2]-M1,para[1]*para[2]-para[1]*para[2]^2-M2)      
 	Jacobi<-matrix(c(para[2],para[1],para[2]-para[2]^2,para[1]-2*para[1]*para[2]),nrow=2,byrow=T)      
 	list(fun=fun,Jacobi=Jacobi)      
 	}
-And the Newton method to solve the equation.     
+	
+And the Newton method to solve the equation.   
+  
 	Newton<-function (fun, x, ep=1e-5,it_max=100)        
 	{        
 	index<-0; k<-1        
@@ -46,8 +49,17 @@ And the Newton method to solve the equation.
 	obj <- fun(x);        
 	list(root=x, it=k, index=index, FunVal= obj$f)        
 	}
+	
 Now we can test this method       
+    
 	x<-rbinom(1000, 10, 0.5); n<-length(x)       
 	M1<-mean(x);M2<-(n-1)/n*var(x)       
 	para_0<-c(5 , 0.2)       
 	Newtons(moment , para_0)       
+	
+#MLE#
+For One-Parameter Distribution, we usually use the logarithm likehood function.       
+We can use the function "optimize()" to compute the MLE of a specific distribution.       
+##Example(Poisson Distribution)##
+For `\( P(\lambda) \)` the logarithm likehood function for `\( X_{1},X_{2}...X_{n} \)` is
+`\[ l_{\lambda}(X)=\frac{\lambda^{\sum_{i=1}^{n}x_{i}}e^{10\lambda}}{\Gamma(x_{1}+1)\Gamma(x_{2}+1)...\Gamma(x_{n}+1)} \]`
