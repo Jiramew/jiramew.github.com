@@ -72,7 +72,7 @@ For `\( P(\lambda) \)` the logarithm likehood function for `\( X_{1},X_{2}...X_{
 		prod=1       
 		for(i in 1:length(x))       
 		{       
-			prod<-prod*gamma(x[i]+1)       
+			prod=prod*gamma(x[i]+1)       
 		}       
 		return(prod)       
 	}       
