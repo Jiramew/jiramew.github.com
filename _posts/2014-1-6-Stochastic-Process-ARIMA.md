@@ -10,11 +10,11 @@ tags: [Stochastic]
 ##Coding##
 ---
 1.Load the Package:   
-   
+
     library('forecast')            
 	library(tseries)      
 	data<-AirPassengers   
-	   
+		   
 2.Plot for intuitive judgment   
    
 	ts.plot(data)      
