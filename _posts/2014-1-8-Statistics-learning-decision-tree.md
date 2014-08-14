@@ -28,7 +28,7 @@ and, `\( x_{i}=(x_{i}^{(1)},x_{i}^{(2)},...,x_{i}^{(n)})^{T}\)`  is the input sa
 ##How to select the characteristic##
 ###Example(Loan or Not)###
 <center>
-<img src="/assets/decisiontree2.jpg" width="400" height="360" align="center">
+<img src="/assets/decisiontree2.jpg" width="500" height="300" align="center">
 </center>
 
 
