@@ -21,18 +21,11 @@ Obviously, we could regard the decision tree as a set of if-then principle. Ever
 
 ##Decision Tree Lerning##
 Giving the training set 
-`\[\begin{equation}
-   \left\{
-   \begin{aligned}
-	np=M_{1}\\
-	np(1-p)=M_{2}\\
-   \end{aligned}
-   \right.
-   \end{equation}\]` 
+`\[\{D={(x_{1},y_{1}),(x_{2},y_{2}),...,(x_{N},y_{N})\}\]`      
    
 ##Example2(Binomial Distribution)##
 First we can see that the two parameters satisfy the following expression( for B(n,p) )：       
-`\[D={(x_{1},y_{1}),(x_{2},y_{2}),...,(x_{N},y_{N})}\]`      
+
 we need the funciton to compute the moment.       
 
 	moment <-function(para)      
