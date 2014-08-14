@@ -22,7 +22,7 @@ Obviously, we could regard the decision tree as a set of if-then principle. Ever
 ##Decision Tree Lerning##
 Giving the training set 
 
-`\[ D={(x_{1},y_{1}),(x_{2},y_{2}),...,(x_{N},y_{N})\]`
+`\[ D=\{(x_{1},y_{1}),(x_{2},y_{2}),...,(x_{N},y_{N})\}\]`
 
 and, `\( x_{i}=(x_{i}^{(1)},x_{i}^{(2)},...,x_{i}^{(n)})^{T}\)`  
    
