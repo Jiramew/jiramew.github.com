@@ -30,5 +30,17 @@ and, `\( x_{i}=(x_{i}^{(1)},x_{i}^{(2)},...,x_{i}^{(n)})^{T}\)`  is the input sa
 <center>
 <img src="/assets/decisiontree2.jpg" width="500" height="300" align="center">
 </center>
+Our Aim is to give a decision tree according to the data mentioned above. Therefore, we could judge whether the new applicant is qualified by using the model.
+###Information Gain###
+####Entropy####
+In Statistics, Entropy is induced for measure the uncertainty of random variable. Let`\( X \)` be a finite discrete random variable, the probability distribution is 
+`\[ P(X=x_{i})=p_{i}, i=1,2,...,n \]`
+So we define the entropy of a random variable:
+`\[ H(X)=-\sum_{i=1}^n p_{i}ln(p_{i})\]`
+
+
+
+
+
 
 
