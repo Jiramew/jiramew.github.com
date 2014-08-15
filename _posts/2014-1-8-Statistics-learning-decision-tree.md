@@ -33,10 +33,19 @@ and, `\( x_{i}=(x_{i}^{(1)},x_{i}^{(2)},...,x_{i}^{(n)})^{T}\)`  is the input sa
 Our Aim is to give a decision tree according to the data mentioned above. Therefore, we could judge whether the new applicant is qualified by using the model.
 ###Information Gain###
 ####Entropy####
-In Statistics, Entropy is induced for measure the uncertainty of random variable. Let`\( X \)` be a finite discrete random variable, the probability distribution is 
+In Statistics, Entropy is induced for measure the uncertainty of random variables. Let `\( X \)` be a finite discrete random variable, the probability distribution is 
 `\[ P(X=x_{i})=p_{i}, i=1,2,...,n \]`
 So we define the entropy of a random variable:
 `\[ H(X)=-\sum_{i=1}^n p_{i}ln(p_{i})\]`
+especially, we define `\( 0ln0=0 \)`, it is obvious to get that the entropy depends only on the probability distribution of the given random variable `\( X \)`, So we can also define the entropy:
+`\[ H(p)=-\sum_{i=1}^n p_{i}ln(p_{i})\]`
+The greater the entropy is, the larger the uncertainty. It is easy to get by the definition,
+`\[ 0 \leq H(p) \leq ln(n) \]`
+####Conditional Entropy####
+The joint distribution of the random variable `\( (X,Y) \)` is
+`\[ P(X=x_{i},Y=y{j})=p_{ij}, i=1,2,...,n ; j=1,2,...,m \]`
+The Conditional Entropy `\( H(Y|X) \)` denotes the uncertainty of `\( Y \)` when we fixed `\( X \)`.
+
 
 
 
