@@ -44,7 +44,36 @@ The greater the entropy is, the larger the uncertainty. It is easy to get by the
 ####Conditional Entropy####
 The joint distribution of the random variable `\( (X,Y) \)` is
 `\[ P(X=x_{i},Y=y{j})=p_{ij}, i=1,2,...,n ; j=1,2,...,m \]`
-The Conditional Entropy `\( H(Y|X) \)` denotes the uncertainty of `\( Y \)` when we fixed `\( X \)`.
+The Conditional Entropy `\( H(Y|X) \)` denotes the uncertainty of `\( Y \)` when we fixed `\( X \)`. So the definition of the Conditional Entropy is the expectation of the entropy of the `\( Y \)` with the given `\( X \)`.
+`\[ H(Y|X)=\sum_{i=1}^n p_{i}H(Y|X=x_{i})\]`
+where `\( p_{i}=P(X=x_{i}), i=1,2,...,n \)`
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
