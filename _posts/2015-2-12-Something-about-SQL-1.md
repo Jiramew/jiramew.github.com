@@ -8,12 +8,12 @@ tags: [tutorial]
 
 This post will show Some __basic knowledge__ about SQL.
 
-1. * A __Database__ is a container that holds tables and SQL structures related to those tables.
-   * A __column__ is a piece of data stored by your table. A __row__ is a single set of columns that describe attributes of a single thing. Columns and rows together make up a table.
-   * __Field__ and column means the same thing, Also row and __record__ are often used interchangably.
+1.    * A __Database__ is a container that holds tables and SQL structures related to those tables.
+    * A __column__ is a piece of data stored by your table. A __row__ is a single set of columns that describe attributes of a single thing. Columns and rows together make up a table.
+    * __Field__ and column means the same thing, Also row and __record__ are often used interchangably.
 
 
-2. + Use `mysql -u root -p` in cmd to launch into the MySQL environment. Or open the cmd with Administrator privileges.
+2. * Use `mysql -u root -p` in cmd to launch into the MySQL environment. Or open the cmd with Administrator privileges.
 
 
 
