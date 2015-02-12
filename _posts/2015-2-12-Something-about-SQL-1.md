@@ -13,7 +13,9 @@ This post will show Some __basic knowledge__ about SQL.
     * __Field__ and column means the same thing, Also row and __record__ are often used interchangably.
 
 
-2. * Use `mysql -u root -p` in cmd to launch into the MySQL environment. Or open the cmd with Administrator privileges.
+2.    * Use `mysql -u root -p` in cmd to launch into the MySQL environment. Or open the cmd with Administrator privileges.
+    * `CREATE DATABASE gregs_list;` will create a database called "gregs_list".
+    * Then `USE gregs_list;` to actually use the database you just created.
 
 
 
