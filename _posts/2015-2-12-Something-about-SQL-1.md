@@ -18,8 +18,9 @@ This post will show Some __basic knowledge__ about SQL.
    * Then `USE gregs_list;` to actually use the database you just created.
    * Datatypes: CHAR, INT, DEC, VARCHAR, BLOB, DATE, DATETIME, TIMESTAMP.
    * `DROP TABLE my_contacts`
-   * ```CREATE TABLE my_contacts
-(
+   * 
+```
+CREATE TABLE my_contacts(
 last_name VARCHAR(30),
 first_name VARCHAR(20),
 email VARCHAR(50),
@@ -32,7 +33,6 @@ interests VARCHAR(100),
 seeking VARCHAR(100)
 );
 ```
-
 
 
 
