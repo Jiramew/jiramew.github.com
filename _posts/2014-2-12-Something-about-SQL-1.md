@@ -48,7 +48,7 @@ INSERT INTO my_contacts(
    * More detail about the data in `CREATE TABLE`
  
 |doughnut_cost |DEC(3,2) |NOT NULL          |DEFAULT 1.00         |
-|--------------|:-------:|:----------------:|--------------------:|
+|--------------|:-------:|:----------------:|---------------------|
 |Column Name   |Data Type|Cannot leave empty|Default value is 1.00|
 
 
