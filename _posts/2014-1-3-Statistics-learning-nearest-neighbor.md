@@ -12,53 +12,60 @@ where `\( N_{k}(x) \)` is the neighborhood of x defined by the k closest point `
 
 ##Coding##
 ---
-	x1<-rnorm(50,0,1)     
-	y1<-rnorm(50,0,1)     
-	x2<-rnorm(50,2,1)     
-	y2<-rnorm(50,2,1)          
-	x<-cbind(t(x1),t(x2))     
-	y<-cbind(t(y1),t(y2))     
-	plot(x1,y1,col=2,pch=16,xlim=c(-3,5),ylim=c(-3,5))     
-	points(x2,y2,col="blue",pch=16)     
-	ch<-function(x,y)     
-	{     
-		k=0     
-		for(i in 1:50)     
-		{     
-			if(x==x1[i] && y==y1[i])  k=1     
-		}     
-		return(k)     
-	}     
-	dis<-function(x1,y1,x2,y2)     
-	{     
-		distance<-sqrt((x1-x2)^2+(y1-y2)^2)     
-		return(distance)     
-	}     
-	cishu<-16     
-	for(tx in seq(-2.5,4,0.05))     
-	{     
-		for(ty in seq(-2.5,4,0.05))     
-		{     
-			distan<-c()     
-			zdistan<-c()     
-			ratio<-0     
-			num<-0     
-		for(i in 1:100)     
-		{     
-			distan<-append(distan,dis(x[i],y[i],tx,ty))     
-		}     
-		for(j in 1:cishu)     
-		{     
-			zdistan<-append(zdistan,which.max(distan))     
-			distan<-distan[-which.max(distan)]     
-		}     
-		for(c in zdistan)     
-		{     
-		if(c<51) num<-num+1     
-		}     
-		ratio<-num/cishu     
-		if(ratio==0.5) points(tx,ty,cex=0.7,pch=20)     
-		}     
-	}	       
+    library(plotrix)
+    x1<-rnorm(50,0,1)
+    y1<-rnorm(50,0,1)
+    x2<-rnorm(50,2,1)
+    y2<-rnorm(50,2,1)
+    x<-cbind(t(x1),t(x2))
+    y<-cbind(t(y1),t(y2))
+    dataSet<-rbind(x,y)
+    labels<-append(rep('a',50),rep('b',50))
+    
+    plot(x1,y1,col=2,pch=16,xlim=c(-3,5),ylim=c(-3,5))
+    points(x2,y2,col="blue",pch=16)
+    
+    distanceCal<-function(x1,y1,x2,y2)
+    {
+    distance<-sqrt((x1-x2)^2+(y1-y2)^2)
+    return(distance)
+    }
+    
+    knnClassify<-function(inX, dataSet, labels, k)
+    {
+    	points(inX[1],inX[2],col="green",pch=16)
+    	labelCatagory = dimnames(as.matrix(table(labels)))[[1]]
+    
+    	distanceSet = c(0)
+    	dataSetSize = length(dataSet[1,])
+    
+    	for(i in 1:dataSetSize)
+    	{
+    		distanceSet[i] = distanceCal(inX[1],inX[2],dataSet[,i][1],dataSet[,i][2])
+    	}
+    	distanceSetOrigin = distanceSet
+    	
+    	nnIndex = c(0)
+    	for(j in 1:k)
+    	{
+    		nnIndex[j] = which.min(distanceSet)
+    		distanceSet[nnIndex[j]] = max(distanceSet)+1
+    	}
+    
+    	draw.circle(inX[1], inX[2], max(distanceSetOrigin[nnIndex]), nv=10000,border="green")
+    	
+    	countLabel<-c(0,0)
+    	for(l in 1:k)
+    	{
+    		if(labels[nnIndex[l]] == labelCatagory[1]) countLabel[1]=countLabel[1]+1
+    		else countLabel[2]=countLabel[2]+1
+    	}
+    
+    	if(countLabel[1]>countLabel[2]) return(labelCatagory[1])
+    	else return(labelCatagory[2])
+    }
+    
+    knnClassify(c(0,0),dataSet,labels,5)
+    
 ---
-<img src="/assets/2014131.jpg" width="400" height="400"> 
+<img src="/assets/2014131.png" width="400" height="400"> 
